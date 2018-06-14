@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-booheefe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BooheeFE/eslint-config-booheefe.git",
+  "author": "simbawu <connect@simbawu.com>",
+  "description": "ESLint Config for Boohee FE team",
+  "keywords": [
+    "eslint",
+    "booheefe",
+    "eslint-config"
+  ],
+  "license": "MIT"
+}
