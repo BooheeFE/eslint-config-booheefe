@@ -126,7 +126,7 @@ module.exports = {
   'no-with': 2,
   'object-curly-spacing': 0,
   'object-shorthand': 0,
-  'one-var': [2, { 'initialized': 'never' }],
+  'one-var': [2, 'consecutive'],
   'operator-assignment': 0,
   'operator-linebreak': [2, 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
   'padded-blocks': 0,
