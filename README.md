@@ -1,4 +1,9 @@
 # eslint-config-booheefe
+
+[![npm](https://img.shields.io/npm/v/eslint-config-booheefe.svg)](https://www.npmjs.com/package/eslint-config-booheefe)
+[![npm](https://img.shields.io/npm/dt/eslint-config-booheefe.svg)](https://www.npmjs.com/package/eslint-config-booheefe)
+[![GitHub license](https://img.shields.io/github/license/BooheeFE/eslint-config-booheefe.svg)](https://github.com/BooheeFE/eslint-config-booheefe/blob/master/LICENSE)
+
 This package provides BooheeFE's base JS .eslintrc as an extensible shared config.
 
 ## Usage
