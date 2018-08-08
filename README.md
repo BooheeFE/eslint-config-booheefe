@@ -26,4 +26,5 @@ Then add following contents to your .eslintrc file
 ```
 
 ## License
-MIT
+
+[**The MIT License**](LICENSE).
