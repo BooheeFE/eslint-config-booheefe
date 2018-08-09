@@ -7,8 +7,8 @@ module.exports = {
   'block-scoped-var': 0,  
   // 大括号放在控制语句或声明语句同一行的位置,允许块的开括号和闭括号在同一行
   'brace-style': [2, '1tbs', { 'allowSingleLine': true }],  
-  // 强制使用驼峰命名
-  'camelcase': 2,
+  // 强制使用驼峰命名，属性名称不做校验
+  'camelcase': [2, {"properties": "never"}],
   // 禁止末尾逗号 
   'comma-dangle': [2, 'never'], 
   // 禁止在逗号前使用空格,要求在逗号后使用一个或多个空格 
