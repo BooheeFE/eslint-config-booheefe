@@ -260,8 +260,8 @@ module.exports = {
   'object-curly-spacing': 0,
   // 要求对象字面量简写语法
   'object-shorthand': 0,
-  // 强制函数中的变量在一起声明或分开声明，要求连续的 var 声明合并为一个
-  'one-var': [2, 'consecutive'],
+  // 对于函数中的变量在一起声明或分开声明不做要求
+  'one-var': 0,
   // 允许不用简化赋值操作
   'operator-assignment': 0,
   // 强制操作符使用一致的换行符风格，要求把换行符放在操作符后面
