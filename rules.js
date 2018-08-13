@@ -117,7 +117,7 @@ module.exports = {
   // 禁止对 catch 子句中的异常重新赋值
   'no-ex-assign': 2,
   // 禁止扩展原生对象
-  'no-extend-native': 2,
+  'no-extend-native': [2, { "exceptions": ["Promise"] }],
   // 禁止不必要的 .bind()函数绑定
   'no-extra-bind': 2,
   // 禁止不必要的布尔转换
