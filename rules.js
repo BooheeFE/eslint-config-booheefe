@@ -35,8 +35,8 @@ module.exports = {
   'dot-location': [2, 'property'],
   // 不强制要求使用点号
   'dot-notation': 0,
-  // 要求在非空文件末尾至少存在一行空行
-  'eol-last': 2,
+  // 禁止在非空文件末尾存在一行空行
+  'eol-last': [2, 'never'],
   // 使用类型安全的 === 和 !== 操作符代替 == 和 != 操作
   // 'allow-null'选项这将告诉 ESLint 除了与 null 字面量进行比较时，总是强制使用绝对相等
   'eqeqeq': [2, 'allow-null'],
