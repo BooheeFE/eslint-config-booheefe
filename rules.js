@@ -48,7 +48,7 @@ module.exports = {
   'func-style': 0,
   // 强制 generator 函数中 * 号周围有空格
   // before 强制在 * 和 function 关键字之间有空格，after 强制在 * 和函数名之间有空格
-  'generator-star-spacing': [2, { 'before': true, 'after': false }],
+  'generator-star-spacing': [2, { 'before': false, 'after': true }],
   // 强制在 getter 属性中出现一个 return 语句 
   'getter-return': 2,
   // 强制在 yield* 表达式中 * 周围使用空格
