@@ -256,8 +256,8 @@ module.exports = {
   'no-warning-comments': 0,
   // 禁用with语句
   'no-with': 2,
-  // 强制在花括号中使用一致的空格
-  'object-curly-spacing': 0,
+  // 强制同行对象中花括号前后都有空格
+  'object-curly-spacing': [2, "always"],
   // 要求对象字面量简写语法
   'object-shorthand': 0,
   // 对于函数中的变量在一起声明或分开声明不做要求
