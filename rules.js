@@ -301,6 +301,8 @@ module.exports = {
   'spaced-comment': [2, 'always', { 'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!'] }],
   // 不要求使用严格模式指令
   'strict': 0,
+  // 强制模板字符串中花括号前后没有空格
+  "template-curly-spacing": [2, "never"],
   // 要求调用 isNaN()检查 NaN 
   'use-isnan': 2,
   // 不强制使用有效的 JSDoc 注释
