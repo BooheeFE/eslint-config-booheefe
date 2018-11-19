@@ -275,7 +275,7 @@ module.exports = {
   // 强制使用一致的反勾号、双引号或单引号，要求尽可能地使用单引号，
   'quotes': [2, 'single'],
   // 当使用parseInt()函数时，要求必须要有第二个参数：基数
-  'radix': 2,
+  'radix': [2, 'as-needed'],
   // 禁止使用分号代替 ASI，要求在语句末尾使用分号，"omitLastInOneLineBlock": true 忽略花括号在同一行（内容也就在同一行了）的语句块中的最后一个分号
   'semi': [2, 'always' ,{ 'omitLastInOneLineBlock': true }],
   // 不强制分号前后有空格
