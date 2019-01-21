@@ -125,7 +125,7 @@ module.exports = {
   // 不限制使用不必要的括号
   'no-extra-parens': 0,
   // 不限制使用不必要的分号
-  'no-extra-semi': 0,
+  'no-extra-semi': 2,
   // 禁止 case 语句落空
   'no-fallthrough': 2,
   // 禁止数字字面量中使用前导和末尾小数点
