@@ -13,5 +13,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BooheeFE/eslint-config-booheefe.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.4.0",
+    "@commitlint/config-conventional": "^7.3.1"
   }
 }
