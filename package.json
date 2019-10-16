@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-booheefe",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "ESLint config for Boohee FE team",
   "main": "index.js",
   "author": "simbawu <connect@simbawu.com>",
