@@ -269,7 +269,7 @@ module.exports = {
   // 允许块内填充，可以有空行
   'padded-blocks': 0,
   // 允许不适用const
-  'prefer-const': 0,
+  'prefer-const': [1, { 'destructuring': 'any', 'ignoreReadBeforeAssign': false }],
   // 允许对象字面量属性名称使用引号
   'quote-props': 0,
   // 强制使用一致的反勾号、双引号或单引号，要求尽可能地使用单引号，
