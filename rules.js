@@ -4,21 +4,23 @@ module.exports = {
   // 数组的括号内的前后禁止有空格
   'array-bracket-spacing': 0,
   // 将var定义的变量视为块作用域，允许在块外使用
-  'block-scoped-var': 0,  
+  'block-scoped-var': 0,
   // 大括号放在控制语句或声明语句同一行的位置,允许块的开括号和闭括号在同一行
-  'brace-style': [2, '1tbs', { 'allowSingleLine': true }],  
-  // 强制使用驼峰命名，属性名称不做校验
-  'camelcase': [2, {"properties": "never"}],
-  // 禁止末尾逗号 
-  'comma-dangle': [2, 'never'], 
-  // 禁止在逗号前使用空格,要求在逗号后使用一个或多个空格 
-  'comma-spacing': [2, { 'before': false, 'after': true }], 
+  'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
+  // 变量及属性定义强制使用驼峰命名，结构赋值时可以忽略此规则
+  'camelcase': [1, { "ignoreDestructuring": true, "properties": "never" }],
+  // 禁止末尾逗号
+  'comma-dangle': [2, 'never'],
+  // 禁止在数组括号内出现空格
+  "array-bracket-spacing": [1, 'never'],
+  // 禁止在逗号前使用空格,要求在逗号后使用一个或多个空格
+  'comma-spacing': [2, { 'before': false, 'after': true }],
   // 要求逗号放在数组元素、对象属性或变量声明之后，且在同一行
-  'comma-style': [2, 'last'], 
+  'comma-style': [2, 'last'],
   // 不限制圈复杂度
-  'complexity': 0, 
+  'complexity': 0,
   // 不强制在计算属性中使用空格
-  'computed-property-spacing': 0, 
+  'computed-property-spacing': 0,
   // 不要求使用一致的 return 语句
   'consistent-return': 0,
   // 不强制要求一致的 This
@@ -40,7 +42,7 @@ module.exports = {
   // 使用类型安全的 === 和 !== 操作符代替 == 和 != 操作
   // 'allow-null'选项这将告诉 ESLint 除了与 null 字面量进行比较时，总是强制使用绝对相等
   'eqeqeq': [2, 'allow-null'],
-  // 强制 “for” 循环中更新子句的计数器朝着正确的方向移动 
+  // 强制 “for” 循环中更新子句的计数器朝着正确的方向移动
   'for-direction': 2,
   // 不强制要求函数表达式命名
   'func-names': 0,
@@ -49,7 +51,7 @@ module.exports = {
   // 强制 generator 函数中 * 号周围有空格
   // before 强制在 * 和 function 关键字之间有空格，after 强制在 * 和函数名之间有空格
   'generator-star-spacing': [2, { 'before': false, 'after': true }],
-  // 强制在 getter 属性中出现一个 return 语句 
+  // 强制在 getter 属性中出现一个 return 语句
   'getter-return': 2,
   // 强制在 yield* 表达式中 * 周围使用空格
   // before 强制在 yield 和 * 之间有空格，after 强制在 * 和 参数之间有空格
@@ -98,7 +100,7 @@ module.exports = {
   'no-delete-var': 2,
   // 不禁止使用看起来像除法的正则表达式
   'no-div-regex': 0,
-  //禁止在 function 定义中出现重复的参数 
+  //禁止在 function 定义中出现重复的参数
   'no-dupe-args': 2,
   // 禁止在对象字面量中出现重复的键
   'no-dupe-keys': 2,
@@ -244,7 +246,7 @@ module.exports = {
   'no-unreachable': 2,
   // 允许未使用过的表达式
   'no-unused-expressions': 0,
-  //不建议出现未使用过的变量 
+  //不建议出现未使用过的变量
   'no-unused-vars': [1],
   // 允许定义前使用变量
   'no-use-before-define': 0,
@@ -277,7 +279,7 @@ module.exports = {
   // 当使用parseInt()函数时，要求必须要有第二个参数：基数
   'radix': [2, 'as-needed'],
   // 禁止使用分号代替 ASI，要求在语句末尾使用分号，"omitLastInOneLineBlock": true 忽略花括号在同一行（内容也就在同一行了）的语句块中的最后一个分号
-  'semi': [2, 'always' ,{ 'omitLastInOneLineBlock': true }],
+  'semi': [2, 'always', { 'omitLastInOneLineBlock': true }],
   // 不强制分号前后有空格
   'semi-spacing': 0,
   // 不要求同一个声明块中的变量按顺序排列
@@ -303,11 +305,11 @@ module.exports = {
   'strict': 0,
   // 强制模板字符串中花括号前后没有空格
   "template-curly-spacing": [2, "never"],
-  // 要求调用 isNaN()检查 NaN 
+  // 要求调用 isNaN()检查 NaN
   'use-isnan': 2,
   // 不强制使用有效的 JSDoc 注释
   'valid-jsdoc': 0,
-  // 强制 typeof 表达式与有效的字符串进行比较 
+  // 强制 typeof 表达式与有效的字符串进行比较
   'valid-typeof': 2,
   // 要求将var变量声明放在它们作用域的顶部
   'vars-on-top': 0,
